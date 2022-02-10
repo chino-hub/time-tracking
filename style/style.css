@@ -1,6 +1,66 @@
 @import url(colors.css);
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Rubik:wght@300;400;500&display=swap');
 body {
     margin: 0;
     padding: 0;
     font-size: 18px;
+    display: grid;
+    place-items: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.card-id {
+    background-color: var(--color-Dark-blue);
+    margin-top: 30px;
+    width: 80%;
+    border-radius: 10px;
+    font-weight: 300;
+}
+
+.calendary {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.calendary a {
+    display: block;
+    color: var(--color-Desaturated-blue);
+    padding: 15px 0;
+}
+
+.calendary a:hover {
+    color: #fff;
+}
+
+.perfil {
+    background-color: var(--color-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.perfil .img-perfil {
+    border-radius: 50%;
+    width: 15%;
+    margin-right: 15px;
+}
+
+.perfil p {
+    color: #fff;
+    margin-bottom: 26px;
+}
+
+.perfil p span {
+    font-size: 10px;
+    color: var(--color-Pale-Blue);
 }
