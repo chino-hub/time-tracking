@@ -64,3 +64,59 @@ img {
     font-size: 10px;
     color: var(--color-Pale-Blue);
 }
+
+
+/* ESTILOS DE LAS CARDS */
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.work {
+    background-image: url("../images/icon-work.svg");
+    background-color: var(--color-ligth-red-work);
+}
+
+.card {
+    width: 80%;
+    border-radius: 10px;
+    height: 150px;
+    position: relative;
+}
+
+.category {
+    position: absolute;
+    bottom: 0px;
+    padding: 0 15px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: var(--color-Dark-blue);
+    height: 115px;
+}
+
+.category {
+    font-weight: 300;
+    color: #fff;
+}
+
+.option,
+.week {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option {
+    align-items: flex-end;
+}
+
+.category .week {
+    font-size: 13px;
+    color: var( --color-Pale-Blue);
+    align-self: flex-end;
+}
+
+.week span {
+    font-size: 25px;
+    color: #fff;
+}
