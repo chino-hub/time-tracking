@@ -121,3 +121,44 @@ img {
     font-size: 25px;
     color: #fff;
 }
+
+
+/* card-play*/
+
+.Play {
+    background-image: url("../images/icon-play.svg");
+    background-color: var(--color-soft-blue);
+}
+
+
+/* card-study */
+
+.Study {
+    background-image: url("../images/icon-study.svg");
+    background-color: var(--color-ligth-red-study);
+    background-position: center;
+}
+
+
+/* exercise-card */
+
+.exercise {
+    background-image: url(../images/icon-exercise.svg);
+    background-color: var(--color-lime-green);
+}
+
+
+/* Social-card */
+
+.Social {
+    background-image: url(../images/icon-social.svg);
+    background-color: var(--color-violet);
+}
+
+
+/* Self care*/
+
+.self-care {
+    background-image: url(../images/icon-self-care.svg);
+    background-color: var(--color-soft-orange);
+}
