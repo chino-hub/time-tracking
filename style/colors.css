@@ -5,7 +5,7 @@
     --color-soft-blue: hsl(195, 74%, 62%);
     --color-ligth-red-study: hsl(348, 100%, 68%);
     --color-lime-green: hsl(145, 58%, 55%);
-    --color-violet: hsl(264, 64%, 52%);
+    --color-violet: hsla(264, 64%, 52%, 0.733);
     --color-soft-orange: hsl(43, 84%, 65%);
     /* NEUTRAL */
     --color-Very-dark-blue: hsl(226, 43%, 10%);
