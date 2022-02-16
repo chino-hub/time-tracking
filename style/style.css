@@ -87,12 +87,13 @@ img {
 
 .category {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
+    top: 40px;
+    right: 0;
+    left: 0;
     padding: 0 15px;
-    width: 90%;
     border-radius: 10px;
     background-color: var(--color-Dark-blue);
-    height: 115px;
 }
 
 .category {
